@@ -1,0 +1,48 @@
+# Build artifacts
+build/
+bin/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeScripts/
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python (in case helper scripts get added)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local data / scratch
+*.log
+scratch/
+tmp/
